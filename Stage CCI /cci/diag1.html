@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diagnostic</title>
+	<div>
+			<img src="logo-cci.jpeg">
+	</div>	
+</head>
+<body bgcolor="#E8E8E8" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td width="100%" bgcolor="#22427C">
+			<h1 align="center"><font color="white">Consultant</font></h1>
+		</td>
+		</tr>
+		</table>
+		<table style="text-align:center; line-height:20px;"> 
+		<tr style="height:40px; width: 100%;"> 
+				<td ><button style="cursor:pointer; height:40px; width: 100px; margin-right: 100px;margin-left: 250px; font-class:verdana; background:#B40404; color:white; border:solid 2px black;" type="button" onclick="alert(&quot;Bouton text&quot;);">Diagnostic</button></td>
+				&nbsp;
+				<td ><button style="cursor:pointer; height:40px; width: 100px; margin-right: 100px; font-class:verdana; background:#B40404; color:white; border:solid 2px black;" type="button" onclick="alert(&quot;Bouton text&quot;);">OFG</button></td>
+				&nbsp;
+				<td ><button style="cursor:pointer; height:40px; width: 100px; margin-right: 100px; font-class:verdana; background:#B40404; color:white; border:solid 2px black;" type="button" onclick="alert(&quot;Bouton text&quot;);">Made In</button></td>
+				&nbsp;
+				<td ><button style="cursor:pointer; height:40px; width: 100px; margin-right: 100px; font-class:verdana; background:#B40404; color:white; border:solid 2px black;" type="button" onclick="alert(&quot;Bouton text&quot;);">Clients</button></td>
+		</tr>
+		</table>
+		<br/>
+		<br/>
+		<table>
+			<h2><strong><u>1<sup>&egrave;re</sup> &eacute;tape : informations sur la soci&eacute;t&eacute; </strong></u></h2>
+			<form method="post" action="traitement.php">
+					<p>
+        				<label>Nom</label> : <input type="text" name="nom" />
+    				</p>
+    				<p>
+       					 <label>Pr&eacute;nom</label> : <input type="text" name="prenom" />
+   					</p>
+   					<p>
+        				<label>Fonction</label> : <input type="text" name="fonction" />
+    				</p>
+    				<p>
+        				<label>Soci&eacute;t&eacute;</label> : <input type="text" name="societe" />
+    				</p>
+    				<p>
+        				<label>N&ordm; SIRET</label> : <input type="text" name="siret" />
+    				</p>
+    				<p>
+        				<label>Site Web</label> : <input type="text" name="siteweb" />
+    				</p>
+    				<p>
+        				<label>Email</label> : <input type="email" name="email" />
+    				</p>
+    				<p>
+        				<label>Commentaires</label>
+        				<br />
+        					<textarea name="commentaires" id="commentaires" rows="10" cols="50">
+       
+       						</textarea>  
+   					</p>
+   					<br/>
+   					<br/>
+   					<p>
+        				<input type="submit" name="Valider" value="Valider"/>
+    				</p>
+
+			</form>
+
+
+
+		</table>
